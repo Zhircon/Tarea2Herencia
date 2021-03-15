@@ -12,10 +12,12 @@ public class Rectangulo extends Figura {
     }
     //Implementacion de la herencia 
     public float calcularPerimetro(){
-        return (base*2)+(altura*2);
+        perimetro=(base*2)+(altura*2);
+        return perimetro;
     }
     public float calcularArea(){
-        return base*altura;
+        area=base*altura;
+        return area;
     }
     //Setters
     public void setBase(float base){

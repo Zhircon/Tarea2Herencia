@@ -9,7 +9,8 @@ public class Romboide extends Rectangulo{
     public Romboide(){        
     }
     public float calcularPerimetro(){
-        return (lado*2)+(base*2);
+        perimetro=(lado*2)+(base*2);
+        return perimetro;
     }
     //Setters
     public void setLado(float lado){

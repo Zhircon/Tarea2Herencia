@@ -11,10 +11,12 @@ public class TrianguloEquilatero extends Figura {
     }
     //Implementacion de la herencia
     public float calcularPerimetro(){
-        return base*3;
+        perimetro=base*3;
+        return perimetro;
     }
     public float calcularArea(){
-        return (base*altura)/2;
+        area=(base*altura)/2;
+        return area;
     }
 
 }

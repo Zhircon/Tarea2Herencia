@@ -10,10 +10,12 @@ public class Circulo extends Figura {
     }
     //Implementacion de la herencia
     public float calcularPerimetro(){
-        return radio*3.1416F;
+        perimetro=radio*3.1416F;
+        return perimetro;
     }
     public float calcularArea(){
-        return (radio*radio)*3.1416F;
+        area=(radio*radio)*3.1416F;
+        return area;
     }
     //setters
     public void setRadio(float radio){

@@ -10,10 +10,12 @@ public class Cuadrado extends Figura {
     }
     //Implementacion de metodos heredados
     public float calcularPerimetro(){
-        return lado*4;
+        perimetro=lado*4
+        return perimetro;
     }
     public float calcularArea(){
-        return lado*lado;
+        area=lado*lado;
+        return area;
     }
     //Setters
     public void setLado(float lado){
